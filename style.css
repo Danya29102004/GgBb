@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+body {
+    background-color: #FFF6E3;
+    color: black;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "IBM Plex Serif", sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: gray
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.Daniil img {
+    width: 250px;
+    border-radius: 28px;
+}
+
+.Daniil h1 {
+    font-size: 50px;
+    color: black;
+}
+
+.Daniil p {
+    color: #000;
+    margin: 0;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+
+.Daniil {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.Daniil-info {
+    margin-left: 40px;
+}
+
+.Daniil-info h1 {
+    margin-bottom: 10px;
+}
+
+.bg-green {
+    background: #92DBB0;
+}
+
+.bg-red {
+    background: #DB534B;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+}
+
+.hobby {
+    padding: 0px 20px;
+}
+
+.hobby li {
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.feedback h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #000;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit; 
+}
+ 
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
